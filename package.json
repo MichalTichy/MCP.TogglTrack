@@ -1,0 +1,16 @@
+{
+  "name": "mcp-toggl-track",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Streamable HTTP and stdio MCP server for Toggl Track and Toggl Focus.",
+  "scripts": {
+    "start": "node ./mcp/server.mjs",
+    "start:http": "node ./mcp/http-server.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
